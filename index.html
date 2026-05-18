@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy Sarker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- NOISE OVERLAY -->
+<div class="noise"></div>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-bar"></div>
+    <span class="preloader-text">JOY SARKER</span>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <a href="#home" class="logo">
+    <span class="logo-bracket">&lt;</span>Joy<span class="logo-accent">.</span><span class="logo-bracket">/&gt;</span>
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-label="menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="navbar" id="navbar">
+    <a href="#home"      class="nav-link" data-text="Home">Home</a>
+    <a href="#about"     class="nav-link" data-text="About">About</a>
+    <a href="#services"  class="nav-link" data-text="Services">Services</a>
+    <a href="#skills"    class="nav-link" data-text="Skills">Skills</a>
+    <a href="#education" class="nav-link" data-text="Education">Education</a>
+    <a href="#contact"   class="nav-link" data-text="Contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ===== HOME ===== -->
+<section class="home" id="home">
+  <div class="home-bg-grid"></div>
+  <div class="home-content">
+    <p class="home-tag"><span class="dot"></span> Available for work</p>
+    <h3 class="home-greeting">Hello, It's Me</h3>
+    <h1 class="home-name">Joy <span class="name-accent">Sarker</span></h1>
+    <h3 class="home-role">I'm a <span class="typed-text"></span><span class="cursor-blink">|</span></h3>
+    <p class="home-desc">Crafting clean, modern web experiences with pixel-perfect precision. Passionate about code, design, and bringing ideas to life.</p>
+    <div class="home-btns">
+      <a href="#contact" class="btn-primary">Hire Me <i class="fas fa-arrow-right"></i></a>
+      <a href="#about" class="btn-ghost">About Me</a>
+    </div>
+    <div class="home-sci">
+      <a href="https://www.facebook.com/joy.sarker2006" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/joysarker8032" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/8801925317945" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/your-username/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/sudo-joysarker" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+  <div class="home-visual">
+    <div class="avatar-ring">
+      <div class="avatar-inner">
+        <span class="avatar-emoji">👨‍💻</span>
+      </div>
+      <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+      <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+      <div class="orbit orbit-3"><div class="orbit-dot"></div></div>
+    </div>
+    <div class="floating-tag tag-1"><i class="fab fa-html5"></i> HTML5</div>
+    <div class="floating-tag tag-2"><i class="fab fa-css3-alt"></i> CSS3</div>
+    <div class="floating-tag tag-3"><i class="fab fa-js"></i> JavaScript</div>
+    <div class="floating-tag tag-4"><i class="fab fa-python"></i> Python</div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="section-label">01 — About</div>
+  <div class="about-container">
+    <div class="about-img-wrap">
+      <div class="about-img-frame" id="aboutImgFrame">
+        <img src="humancartoon.jpg" alt="Joy Sarker" id="aboutImg">
+      </div>
+      <div class="about-stats">
+        <div class="stat-card"><span class="stat-num">1+</span><span class="stat-label">Years Exp.</span></div>
+        <div class="stat-card stat-card-clickable" id="projectsBtn">
+          <span class="stat-num">1+</span>
+          <span class="stat-label">Projects</span>
+          <span class="stat-hint"><i class="fas fa-external-link-alt"></i> View</span>
+        </div>
+        <div class="stat-card"><span class="stat-num">5+</span><span class="stat-label">Skills</span></div>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <h4 class="about-role">Full Stack Developer & UI/UX Enthusiast</h4>
+      <p>I'm a passionate web developer currently studying Computer Science and Technology at MRIST. I love building things for the web — from elegant frontends to robust backends. My goal is to create digital experiences that are both beautiful and functional.</p>
+      <p style="margin-top:12px;">When I'm not coding, I'm learning new tech, solving problems, and leveling up every day.</p>
+      <div class="about-tags">
+        <span>Problem Solver</span><span>Fast Learner</span><span>Team Player</span><span>Creative Thinker</span>
+      </div>
+      <a href="#contact" class="btn-primary" style="margin-top:2rem; display:inline-flex;">Let's Talk <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="section-label">02 — Services</div>
+  <h2 class="section-title center">What I <span>Offer</span></h2>
+  <p class="section-sub center">Here's what I can do for you</p>
+  <div class="services-grid">
+    <div class="service-card" data-num="01">
+      <div class="service-icon"><i class="fas fa-crop-alt"></i></div>
+      <h3>Web Design</h3>
+      <p>Beautiful, responsive websites that look stunning on every device. Clean layouts, modern UI, and pixel-perfect execution.</p>
+      <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="service-card" data-num="02">
+      <div class="service-icon"><i class="fas fa-code"></i></div>
+      <h3>UI/UX Design</h3>
+      <p>User-centered design with intuitive flows and delightful interactions. I design experiences, not just interfaces.</p>
+      <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="service-card" data-num="03">
+      <div class="service-icon"><i class="fab fa-apple"></i></div>
+      <h3>App Development</h3>
+      <p>Cross-platform mobile apps with smooth performance and clean code. From concept to launch, I've got you covered.</p>
+      <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="service-card" data-num="04">
+      <div class="service-icon"><i class="fas fa-server"></i></div>
+      <h3>Backend Dev</h3>
+      <p>Scalable server-side solutions, REST APIs, and database design. Your app's backbone, built to last.</p>
+      <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills" id="skills">
+  <div class="section-label">03 — Skills</div>
+  <h2 class="section-title center">My <span>Skills</span></h2>
+  <p class="section-sub center">Technologies I work with</p>
+
+  <div class="skills-wrapper">
+    <!-- Technical -->
+    <div class="skills-col">
+      <h3 class="skills-col-title">Technical Skills</h3>
+      <div class="skill-item" data-value="60">
+        <div class="skill-meta">
+          <span><i class="fab fa-html5" style="color:#e44d26"></i> HTML5</span>
+          <span class="skill-pct">0%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-item" data-value="30">
+        <div class="skill-meta">
+          <span><i class="fab fa-css3-alt" style="color:#264de4"></i> CSS3</span>
+          <span class="skill-pct">0%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-item" data-value="15">
+        <div class="skill-meta">
+          <span><i class="fab fa-js-square" style="color:#f7df1e"></i> JavaScript</span>
+          <span class="skill-pct">0%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-item" data-value="50">
+        <div class="skill-meta">
+          <span><i class="fab fa-python" style="color:#3776ab"></i> Python</span>
+          <span class="skill-pct">0%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-item" data-value="20">
+        <div class="skill-meta">
+          <span><i class="fab fa-java" style="color:#f89820"></i> Java</span>
+          <span class="skill-pct">0%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+    </div>
+
+    <!-- Professional -->
+    <div class="skills-col">
+      <h3 class="skills-col-title">Professional Skills</h3>
+      <div class="circles-grid">
+        <div class="circle-skill" data-value="60">
+          <svg class="circle-svg" viewBox="0 0 100 100">
+            <circle class="circle-bg" cx="50" cy="50" r="42"/>
+            <circle class="circle-prog" cx="50" cy="50" r="42" stroke-dasharray="0 264"/>
+          </svg>
+          <div class="circle-inner"><span class="circle-pct">0%</span></div>
+          <p>Creativity</p>
+        </div>
+        <div class="circle-skill" data-value="50">
+          <svg class="circle-svg" viewBox="0 0 100 100">
+            <circle class="circle-bg" cx="50" cy="50" r="42"/>
+            <circle class="circle-prog" cx="50" cy="50" r="42" stroke-dasharray="0 264"/>
+          </svg>
+          <div class="circle-inner"><span class="circle-pct">0%</span></div>
+          <p>Communication</p>
+        </div>
+        <div class="circle-skill" data-value="50">
+          <svg class="circle-svg" viewBox="0 0 100 100">
+            <circle class="circle-bg" cx="50" cy="50" r="42"/>
+            <circle class="circle-prog" cx="50" cy="50" r="42" stroke-dasharray="0 264"/>
+          </svg>
+          <div class="circle-inner"><span class="circle-pct">0%</span></div>
+          <p>Problem Solving</p>
+        </div>
+        <div class="circle-skill" data-value="50">
+          <svg class="circle-svg" viewBox="0 0 100 100">
+            <circle class="circle-bg" cx="50" cy="50" r="42"/>
+            <circle class="circle-prog" cx="50" cy="50" r="42" stroke-dasharray="0 264"/>
+          </svg>
+          <div class="circle-inner"><span class="circle-pct">0%</span></div>
+          <p>Teamwork</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="education" id="education">
+  <div class="section-label">04 — Education</div>
+  <h2 class="section-title center">My <span>Education</span></h2>
+  <p class="section-sub center">Academic journey so far</p>
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-year">Running</div>
+      <div class="timeline-card">
+        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="timeline-body">
+          <span class="timeline-badge">Diploma</span>
+          <h3>MRIST</h3>
+          <h4>Dr. Mahbubur Rahman Mollah Institute of Science & Technology</h4>
+          <p><i class="fas fa-book"></i> Computer Science & Technology (CST)</p>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-year">2023</div>
+      <div class="timeline-card">
+        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+        <div class="timeline-body">
+          <span class="timeline-badge">SSC</span>
+          <h3>Dogair Model High School</h3>
+          <h4>DMHS</h4>
+          <p><i class="fas fa-layer-group"></i> Group: Humanities &nbsp;|&nbsp; <i class="fas fa-star"></i> GPA: 2.79 / 5.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="section-label">05 — Contact</div>
+  <h2 class="section-title center">Let's <span>Connect</span></h2>
+  <p class="section-sub center">Have a project in mind? Let's build something great together.</p>
+  <div class="contact-container">
+    <div class="contact-left">
+      <div class="contact-info-item"><div class="ci-icon"><i class="fas fa-envelope"></i></div><div><span>Email</span><strong>joysarker@gmail.com</strong></div></div>
+      <div class="contact-info-item"><div class="ci-icon"><i class="fas fa-phone"></i></div><div><span>Phone</span><strong>01925317945</strong></div></div>
+      <div class="contact-info-item"><div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div><div><span>Location</span><strong>Bangladesh</strong></div></div>
+      <div class="contact-socials">
+        <a href="https://www.facebook.com/joy.sarker2006" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/joysarker8032" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/8801925317945" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/your-username/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/sudo-joysarker" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form action="https://formspree.io/f/mgvpegdw" method="POST" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Joy Sarker" required>
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="joy@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Project Inquiry" required>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+      <div class="form-toast" id="formToast"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="footer-logo"><span class="logo-bracket">&lt;</span>Joy<span class="logo-accent">.</span><span class="logo-bracket">/&gt;</span></span>
+    <p>Developed with <span class="heart">❤</span> by Joy Sarker &copy; 2025</p>
+    <a href="#home" class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+<!-- ===== PROJECTS MODAL ===== -->
+<div class="projects-modal-overlay" id="projectsModal">
+  <div class="projects-modal">
+    <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+    <h2 class="modal-title">My <span>Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+        <div class="project-info">
+          <h3>Weather Web</h3>
+          <p>A clean weather app that shows real-time weather data for any city around the world.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+        <a href="https://sudo-joysarker.github.io/Web-Wearher/" target="_blank" class="project-demo-btn">
+          Live Demo <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
